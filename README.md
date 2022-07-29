@@ -1,1 +1,3 @@
 # docker-noid
+
+The noid utility creates minters (identifier generators) and accepts commands that operate them. Once created, a minter can be used to produce persistent, globally unique names for documents, databases, images, vocabulary terms, etc. Properly managed, these identifiers can be used as long term durable information object references within naming schemes such as ARK, PURL, URN, DOI, and LSID. At the same time, alternative minters can be set up to produce short-lived names for transaction identifiers, compact web server session keys, and other ephemera. For more see the [noid manual page](https://metacpan.org/dist/Noid/view/noid).
